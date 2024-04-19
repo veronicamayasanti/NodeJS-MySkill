@@ -1,0 +1,20 @@
+>>>>> Error Handling <<<<<
+# Error handling adalah proses mengidentifikasi, menanggapi dan mengelolah kesalahan atau kegagaln yang mungkin terjadi selama eksekusi program
+# Tujuan error handling adalah untuk memastikan bahwa program dapat mengatasi situasi yang tidak diinginkan dengan cara yang terkendali dan tidak menyebabkan kerusakan yang lebih besar
+# Dalam NodeJS kita dapat menggunakan error handling dengan memanfaatkan konsep stack trace untuk melacak jejak eksekusi program saat terjadi kesalahan
+
+>>>>> Error Async <<<<<
+# Error handling pada operasi asinkron (Async) dalam NodeJS dapat dilakukan menggunakan beberapa pendekatan, 
+    seperti callback, promise, atau Async/await
+
+# Pola callback adalah Pola umum yang digunakan dalam kode NodeJS Async
+# callback membuat error handling menjadi eksplisit. dengan memberikan dua parameter pada callback (error dan hasil),
+    kode menjadi jelas dalam error handling
+
+
+>>>> Tipe Error <<<<<
+1. Error Javascript
+2. Error System
+3. Spesifik Error
+4. Assertion Error
+

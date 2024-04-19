@@ -1,0 +1,50 @@
+Mengenal Node.Js
+NodeJS adalah
+perangkat lunak yang didesain untuk mengembangkkan aplikasi
+berbasis web dan ditulis dalam sintak bahasa pemrograman javascript
+
+Runtime environment untuk javascript yang safatnya open-source dan cross-platform
+
+nodejs dibangun dengan engine V8 javascript engine
+memiliki karakteristik model single threading
+
+
+---- keunggulan node js ----
+dapat dijalankan diberbagai platform
+mempunyai perform tinggi
+cocok untuk membangun aplikasi dari skala kecil sampai besar
+
+
+----- fungsi Node.Js
+1. chatting secara real-time
+Node.js dapat digunakan untuk program yang menggunakan data secara intensif, contohnya aplikasi chat.
+nodejs menggunakan teknologi push melalui web socket
+teknologi tersebut memungkinkan komunikasi dua arah antara server dan klien,
+sehingga server tidak perlu mengelola thread untuk setiap koneksi terbuka
+
+2. Data Streaming
+nodejs memiliki sebuah modul bawaan yang dapat mendukung streaming data
+modul bawaan tersebut memungkinkan pembuatan stream yang bisa dibaca(readable) dan ditulis(writeable).
+sehingga nodejs dapat membantu mengantrekan dan mendistribusikan data secara asinkron tanpa hambatan atau gangguan
+
+
+3. proxy sisi server
+dengan menggunakan method non-blocking, nodejs mampu mengelola banyak koneksi sekaligus
+nodejs juga digunakan sebagai proxy server-side yang efektif
+yang mampu mengumpulkan data dari berbagai resource pihak ketiga
+nodejs biasa digunakan untuk membuat aplikasi client-side
+yang berfungsi untuk mengelolah aset dan permintaan API proxy/stub
+
+4. Dashboard untuk monitoring sistem
+# NodeJS memiliki fitur event loop yang memungkinkan kita untuk membuat Dashboard berbasis web yang dapat digunakan untuk memeriksa status pada beberapa layanan secara asinkron
+# status layanan internet dan publik dapat dilaporkan secara langsung
+
+5. REST API 
+# expressJS, KoaJS dan NestJS merupakan framework yang dimiliki oleh nodejs
+# kedua framework tersebut dapat digunakan untuk membuat aplikasi
+# sehingga dapat mempercepat proses integrasi API dan menjadi dasar REST API yang ringan dan cepat
+
+
+6. Single Page Application
+# nodejs mampu melakukan update data yang sangat lancar bagi SPA tanpa harus merefresh halaman secara rutin.
+# hal tersebut disebabkan karena NodeJS terbiasa menangani panggilan asinkron efektif di antara operasi I/O yang berat 

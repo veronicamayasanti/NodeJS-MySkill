@@ -1,0 +1,7 @@
+Aplikasi yang menggunakan NodeJS
+
+Netflix
+paypal
+LinkedIn
+Trello
+mozilla firefox

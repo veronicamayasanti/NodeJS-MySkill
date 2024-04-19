@@ -1,0 +1,8 @@
+>>>> Debugger
+# Debugger adalah tools yang disediakan oleh nodejs untuk mengecek atau debugging
+    (menyelidiki kesalahan atau analis eksekusi program) kode yang kita buat
+
+# utilitis Debugger pada nodeJS memungkinkan kita untuk:
+1. menjalankan program nodeJS dalam mode debugging
+2. menghentikan eksekusi pada titik tertentu (break point)
+3. mengakses berbagai informasi tentang status program, variable dan lingkungan eksekusi

@@ -1,0 +1,29 @@
+Mengenal Module
+# Module merupakan unit atau wadah dari fungsi yang dapat digunakan kembali
+# Module juga dapat didefinisikan sebagai kumoulan fungsu yang ingin disertakan dalam sebuah aplikasi yang akan dibuat
+
+
+Jenis Module
+# core Module adalah modul yang telah ada pada aplikasi NodeJS sehingga tidak perlu di-install.
+beberapa code module yang sering digunakan adalah http, url, querystring, path, fs, util.
+# local module adalah modul yang dapat kita buat secara lokal pada aplikasi NodeJS
+# Third Party Module adalah modul yang telah disediakan oleh pengguna lain dan dapat digunakan oleh semua orang
+
+
+Perbedaan module pada CommenJS dan ESM
+CommenJS                                            ESM
+export:
+menggunakan module.export atau exports              menggunakan export
+
+import:
+menggunakan require(`../path/to/module`)            menggunakan import alias_nama from '../path/to/module';
+
+mendukunng dynamic loading                          mendukung static loading
+tidak mendukung Async loading                       mendukung Async loading
+
+Extension file.js                                   Extension file.mjs
+
+
+Membuat Custom Module
+# create folder modul dibawah folder Application
+# pindahkan fungsii ke dalam custom module 

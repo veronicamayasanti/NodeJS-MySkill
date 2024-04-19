@@ -1,0 +1,4 @@
+Mengenal Console/REPL
+
+console di nodejs merupakan evironment yang digunakan untuk menguji kode nodejs/javascript secara langsung
+

@@ -1,0 +1,25 @@
+promise
+# promise merupakan sebuah mekanisme dalam pengolahan data secara asinkron
+# promise digunakan untuk mengelolah eksekusi kode asinkron secara lebih terstruktur
+
+async/await
+Async/await adalah sebuah fungsi yang dikhususkan untuk fungsi asynchronous dan biasa digabungkan dengan promise
+
+
+callback
+callback adalah suatu fungsi yang digunakan ketika fungsi lain selesai di proses
+
+
+event loop
+# event loop adalah proses single thread yang memproses events secara asynchronous atau non-blocking yang
+    dengan banyak loop atai proses pengulangan yang tidak terhingga atau terus menerus
+
+# memungkinkan menangani banyak proses secara bersamaan
+
+# event loop bertugas mengirimkan request ke threadpool c++ 
+    dan menerima response berupa callback dari threadpool ++
+
+event Emitter
+# EventEmitter adalah sebuah kelas di nodeJS yang bertanggung jawab untuk menangani event pada modul 'events' di nodeJS
+#   NewListeber jika kita ingin membuat event listener bertanggung
+# RemoveListener jika kita ingin menghapus event listener yang sudah adalah
